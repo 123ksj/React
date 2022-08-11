@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import * as ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -42,24 +42,63 @@ import reportWebVitals from './reportWebVitals';
 // }, 1000)
 
 
-// chapter_05
-import CommentList from './chapter_05/CommentList';
+// // chapter_05
+// import CommentList from './chapter_05/CommentList';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>
+// );
+
+// // ReactDOM.render(
+// //   <React.StrictMode>
+// //     <CommentList />
+// //   </React.StrictMode>,
+// //   document.getElementById('root')
+// // );
+
+
+// chapter_06
+import NotificationList from './chapter_06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <CommentList />
-  </React.StrictMode>
+
+    <NotificationList />
+
 );
 
 // ReactDOM.render(
 //   <React.StrictMode>
-//     <CommentList />
+//     <NotificationList />
 //   </React.StrictMode>,
 //   document.getElementById('root')
 // );
 
+
+// // chapter_07
+// import Accommodate from './chapter_07/Accommodate';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <Accommodate />
+//   </React.StrictMode>
+// );
+
+// // // ReactDOM.render(
+// // //   <React.StrictMode>
+// // //     <Accommodate />
+// // //   </React.StrictMode>,
+// // //   document.getElementById('root')
+// // // );
+
+
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
