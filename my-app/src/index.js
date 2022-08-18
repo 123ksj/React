@@ -60,22 +60,22 @@ import reportWebVitals from './reportWebVitals';
 // // );
 
 
-// chapter_06
-import NotificationList from './chapter_06/NotificationList';
+// // chapter_06
+// import NotificationList from './chapter_06/NotificationList';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
 
-    <NotificationList />
-
-);
-
-// ReactDOM.render(
-//   <React.StrictMode>
 //     <NotificationList />
-//   </React.StrictMode>,
-//   document.getElementById('root')
+
 // );
+
+// // ReactDOM.render(
+// //   <React.StrictMode>
+// //     <NotificationList />
+// //   </React.StrictMode>,
+// //   document.getElementById('root')
+// // );
 
 
 // // chapter_07
@@ -95,6 +95,59 @@ root.render(
 // // //   document.getElementById('root')
 // // // );
 
+
+// // chapter_08
+// import ConfirmButton from './chapter_08/ConfirmButton';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <ConfirmButton />
+//   </React.StrictMode>
+// );
+
+// // // // ReactDOM.render(
+// // // //   <React.StrictMode>
+// // // //     <ConfirmButton />
+// // // //   </React.StrictMode>,
+// // // //   document.getElementById('root')
+// // // // );
+
+
+// // chapter_09
+// import LandingPage from './chapter_09/LandingPage';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <LandingPage />
+//   </React.StrictMode>
+// );
+
+// // // // ReactDOM.render(
+// // // //   <React.StrictMode>
+// // // //     <LandingPage />
+// // // //   </React.StrictMode>,
+// // // //   document.getElementById('root')
+// // // // );
+
+
+// chapter_10
+import AttendanceBook from './chapter_10/AttendanceBook';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AttendanceBook />
+  </React.StrictMode>
+);
+
+// // // ReactDOM.render(
+// // //   <React.StrictMode>
+// // //     <AttendanceBook />
+// // //   </React.StrictMode>,
+// // //   document.getElementById('root')
+// // // );
 
 
 // If you want to start measuring performance in your app, pass a function
